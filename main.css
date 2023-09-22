@@ -1,0 +1,89 @@
+.test{
+    color: blue;
+}
+h1{
+color: rgb(152, 75, 207); 
+font-family: 'Roboto', medium;  
+}
+#unic{
+    font-size: larger;
+    color: rgb(67, 34, 34);
+}
+ul > li {
+font-weight: 800;
+list-style-type: circle;
+}
+/* Селектор потомков */
+
+
+nav > ol{
+    background-color: blue ;
+    border-radius: 10px;
+    color: #ff3131;
+    width: 300px;
+}
+nav:hover{background-color: rgb(249, 25, 182) ;
+    border-radius: 10px;
+    color: #ffe32c;
+    width: 300px;
+
+}
+a{
+    color: blue;
+}
+
+a:hover{
+    color: rgb(255, 4, 4);
+}
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+a:active{
+    color: aquamarine;
+}
+li:first-child {
+    font-weight: bold;
+    color: darkslategray;
+}
+h2 + p {
+    font-weight: bold;
+    color: hotpink;
+    font-size: larger;
+}
+.cubick{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 211, 245);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+.corzina{
+    width: 220px;
+    height: 220 px;
+    background-color: coral;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding-top:1%;
+    padding-left: 2%;
+}
+.content-container{
+    background-color: rgb(189, 204, 233);
+    border-radius: 2%;
+    padding: 5% 1% ;
+    margin-top: 3%;
+}
+.section {
+   margin-top: 2%;
+   border: solid 1px cornflowerblue;
+   width: 250px;
+   height: 250px;
+   background-color: beige;
+    border-radius: 5px;
+    padding-top:100px;
+    padding-left: 10%;
+}
